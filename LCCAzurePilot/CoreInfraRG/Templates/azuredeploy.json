@@ -82,7 +82,7 @@
         "artifactsBaseUrl": "",
         "description": "URL to acquire other templates"
       },
-      "defaultValue": "https://raw.githubusercontent.com/piyushminch/LCCAzurePilot/Dev/CoreInfraRG/Templates"
+      "defaultValue": "https://raw.githubusercontent.com/piyushminch/lccazurepilot/master/LCCAzurePilot/CoreInfraRG/Templates"
     },
     "storageAccountNamePrefix": {
       "type": "string",
