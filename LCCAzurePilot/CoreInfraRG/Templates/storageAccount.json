@@ -13,8 +13,7 @@
     },
     "storageAccountType": {
       "type": "string",
-      "allowedValues": [
-       
+      "allowedValues": [       
         "Standard_LRS",
         "Standard_GRS"
       ],
@@ -32,15 +31,6 @@
       "location": "[parameters('location')]",
       "properties": {
         "accountType": "[parameters('storageAccountType')]"
-      }
-    },
-    {
-      "type": "Microsoft.Storage/storageAccounts",
-      "name": "[concat(parameters('storageAccountNamePrefix'),'2')]",
-      "apiVersion": "2015-06-15",
-      "location": "[parameters('location')]",
-      "properties": {
-        "accountType": "Standard_LRS"
       }
     }
   ],
