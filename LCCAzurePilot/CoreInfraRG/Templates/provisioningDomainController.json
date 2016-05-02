@@ -101,7 +101,7 @@
       },
       "resources": [
         {
-          "type": "Microsoft.Compute/virtualMachines/extensions",
+          "type": "Microsoft.Compute/VirtualMachines/extensions",
           "name": "[concat(parameters('adVMName'),'/InstallDomainController')]",
           "apiVersion": "2015-06-15",
           "location": "[parameters('location')]",
