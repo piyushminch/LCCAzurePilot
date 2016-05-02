@@ -1,0 +1,7 @@
+{
+  "itemDisplayName": "Create core lcc azure infrastructure",
+  "description": "This template creates a VNet, it configures one VM to be an AD DC for a new Forest and Domain, one with SQL Server domain joined and a third VM with a Sharepoint farm and  site, all VMs have public facing RDP",
+  "summary": "This template creates a core LCC azure Infrastructure",
+  "githubUsername": "PiyushSahay & AndrewVevers  ",
+  "dateUpdated": "2016-04-28"
+}

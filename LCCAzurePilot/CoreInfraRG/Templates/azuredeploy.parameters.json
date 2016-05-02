@@ -1,0 +1,26 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "West Europe"
+        },
+        "storageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "adminUsername": {
+            "value": "leedsadmin"
+        },
+        "adminPassword": {
+            "value": "leeds@123"
+        },
+     
+        "storageAccountNamePrefix": {
+            "value": "strgacct"
+        },
+         "adVMSize": {
+            "value": "Standard_DS1"
+        }
+  
+    }
+}
